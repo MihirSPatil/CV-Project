@@ -1,0 +1,2 @@
+FOR %%I IN (1, 2) DO RMDIR /S /Q .vs x64 Projects\Evaluation\.vs Projects\Evaluation\x64 Projects\Example-C++\.vs Projects\Example-C++\x64 Projects\Template-C++\.vs Projects\Template-C++\x64 Projects\VideoRecorder\.vs Projects\VideoRecorder\x64
+FOR /D %%F IN (Results\*) DO RMDIR /S /Q %%F

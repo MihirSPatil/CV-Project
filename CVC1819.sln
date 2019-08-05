@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoRecorder", "Projects\VideoRecorder\VideoRecorder.vcxproj", "{A030DDAD-34F1-4A8B-8CDE-6D83317532A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Template", "Projects\Template-C++\Template.vcxproj", "{95661FC8-CEF9-4ADA-96CD-FCE95E6ADD10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example", "Projects\Example-C++\Example.vcxproj", "{97358046-D079-4658-A3B8-A5F8A5C09AF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Evaluation", "Projects\Evaluation\Evaluation.vcxproj", "{9FDDE7A4-CAC7-44C7-A68D-7521D0C4773B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95661FC8-CEF9-4ADA-96CD-FCE95E6ADD10} = {95661FC8-CEF9-4ADA-96CD-FCE95E6ADD10}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A030DDAD-34F1-4A8B-8CDE-6D83317532A4}.Debug|x64.ActiveCfg = Debug|x64
+		{A030DDAD-34F1-4A8B-8CDE-6D83317532A4}.Debug|x64.Build.0 = Debug|x64
+		{A030DDAD-34F1-4A8B-8CDE-6D83317532A4}.Release|x64.ActiveCfg = Release|x64
+		{A030DDAD-34F1-4A8B-8CDE-6D83317532A4}.Release|x64.Build.0 = Release|x64
+		{95661FC8-CEF9-4ADA-96CD-FCE95E6ADD10}.Debug|x64.ActiveCfg = Debug|x64
+		{95661FC8-CEF9-4ADA-96CD-FCE95E6ADD10}.Debug|x64.Build.0 = Debug|x64
+		{95661FC8-CEF9-4ADA-96CD-FCE95E6ADD10}.Release|x64.ActiveCfg = Release|x64
+		{95661FC8-CEF9-4ADA-96CD-FCE95E6ADD10}.Release|x64.Build.0 = Release|x64
+		{97358046-D079-4658-A3B8-A5F8A5C09AF3}.Debug|x64.ActiveCfg = Debug|x64
+		{97358046-D079-4658-A3B8-A5F8A5C09AF3}.Debug|x64.Build.0 = Debug|x64
+		{97358046-D079-4658-A3B8-A5F8A5C09AF3}.Release|x64.ActiveCfg = Release|x64
+		{97358046-D079-4658-A3B8-A5F8A5C09AF3}.Release|x64.Build.0 = Release|x64
+		{9FDDE7A4-CAC7-44C7-A68D-7521D0C4773B}.Debug|x64.ActiveCfg = Debug|x64
+		{9FDDE7A4-CAC7-44C7-A68D-7521D0C4773B}.Debug|x64.Build.0 = Debug|x64
+		{9FDDE7A4-CAC7-44C7-A68D-7521D0C4773B}.Release|x64.ActiveCfg = Release|x64
+		{9FDDE7A4-CAC7-44C7-A68D-7521D0C4773B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F284E9D-433A-43CA-B0A2-79E026C7BAE7}
+	EndGlobalSection
+EndGlobal
